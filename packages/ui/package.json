@@ -10,7 +10,6 @@
   "exports": {
     "./styles.css": "./src/styles.css",
     "./tailwind.config": "./tailwind.config.ts",
-    "./postcss.config": "./postcss.config.mjs",
     "./lib/*": "./src/lib/*.ts"
   },
   "license": "MIT",
