@@ -8,9 +8,13 @@ const config = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
+    '../../packages/ui/src/**/*.{ts,tsx}'
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+    },
     container: {
       center: true,
       padding: "2rem",

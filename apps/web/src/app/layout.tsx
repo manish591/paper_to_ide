@@ -1,8 +1,8 @@
 import '@repo/ui/styles.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Ubuntu } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const font = Ubuntu({ subsets: ['latin'], weight: ['400', '700'] });
 
 export const metadata: Metadata = {
   title: 'paper to ide',
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>): JSX.Element {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   );
 }
